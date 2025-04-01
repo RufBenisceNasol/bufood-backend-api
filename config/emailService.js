@@ -19,9 +19,7 @@ const sendVerificationEmail = async (email, verificationLink) => {
     <a href="${verificationLink}" style="display: inline-block; background-color: #4CAF50; color: white; padding: 15px 25px; font-size: 16px; text-align: center; border-radius: 5px; text-decoration: none;">
       Verify Email
     </a>
-    <p>If the button doesn't work, you can copy and paste the following link into your browser:</p>
-    <p><a href="${verificationLink}">${verificationLink}</a></p>
-    <p>Best regards,<br>Your Team</p>
+    <p>Best regards,<br>Pogi na Admin</p>
   `;
 
   const mailOptions = {
